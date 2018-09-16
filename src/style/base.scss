@@ -10,13 +10,14 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     font-family: $font-encode;
     font-weight: 400;
     color: $color-gray-4D;
 }
 
-.app-wrapper {
+.layout-grid {
     width: 100vw;
     height: 100vh;
     
@@ -28,5 +29,6 @@ body {
 .bar {
     height: 4rem;
     background-color: $color-gray-D8;
-    grid-row: page-s/page-e;
+    grid-row: bar-s/bar-e;
+    grid-column: page-s/page-e;
 }
